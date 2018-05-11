@@ -1,3 +1,5 @@
 fluid-container {
-    background-color: aquamarine;
+    color: darkslategray;
+    left: 50%;
+    top: 150px;
 }
