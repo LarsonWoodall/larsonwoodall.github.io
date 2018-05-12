@@ -21,6 +21,18 @@ h2 {
     letter-spacing: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.bigHeader {
+    color: #EDF5E1;
+    background: none;
+    border: none;
+    font-size: 80px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: letterSpacingAmbientStretch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
 
 @keyframes sidebarButtonHoverAnimation {
     from {
@@ -57,6 +69,7 @@ h2 {
 
 .sideBarbutton {
     color: #EDF5E1;
+    position: absolute;
     background: none;
     border: none;
     font-size: 20px;

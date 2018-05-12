@@ -9,7 +9,7 @@ function link_events() {
 
 function me() {
     var outarea = document.getElementById("outarea");
-    outarea.innerHTML = "<iframe src='aboutme.html' height='300' width ='500'></iframe>";
+    outarea.innerHTML = "<iframe src='aboutme.html' height='300' width ='1000'></iframe>";
     resetSidebarButtonClasses ();
     var me = document.getElementById("me");
     me.setAttribute("class", "sideBarbuttonSelected");
@@ -17,7 +17,7 @@ function me() {
 
 function stuff() {
     var outarea = document.getElementById("outarea");
-    outarea.innerHTML = "<iframe src='mystuff.html'height='300' width ='500'></iframe>";    
+    outarea.innerHTML = "<iframe src='mystuff.html'height='300' width ='1000'></iframe>";    
     resetSidebarButtonClasses ()
     var stuff = document.getElementById('stuff');
     stuff.setAttribute('class', 'sideBarbuttonSelected')
@@ -25,7 +25,7 @@ function stuff() {
 
 function contact() {
     var outarea = document.getElementById("outarea");
-    outarea.innerHTML = "<iframe src='contact.html'height='300' width ='500'></iframe>";    
+    outarea.innerHTML = "<iframe src='contact.html'height='300' width ='1000'></iframe>";    
     resetSidebarButtonClasses ()
     var contact = document.getElementById('contact');
     contact.setAttribute('class', 'sideBarbuttonSelected')
