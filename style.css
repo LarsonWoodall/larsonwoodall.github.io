@@ -1,29 +1,46 @@
 body {
     background-color: #5CDB95;
 }
-.container-fluid{
+
+.container-fluid {
     position: absolute;
     height: 100%;
     padding-top: 25%;
     background-color: #379683;
     margin-left: 10px;
-    width: 300px;
+    width: 275px;
 }
+
+h2 {
+    margin-left: 40px;
+    color: #EDF5E1;
+    background: none;
+    top: 0%;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 button {
     color: #EDF5E1;
     background: none;
     border: none;
     font-size: 20px;
     letter-spacing: 5px;
+    padding-left: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    text-align: left;
 }
 
-button:hover{
+button:hover {
     color: #05286b;
 }
 
+button:active {
+    text-decoration: underline;
+    text-decoration-color:#05286b;
+    color: #05286b;
+}
 #outarea {
     position: absolute;
     left: 300px;
