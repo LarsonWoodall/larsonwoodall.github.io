@@ -10,20 +10,32 @@ function link_events() {
 function me() {
     var outarea = document.getElementById("outarea");
     outarea.innerHTML = "<iframe src='aboutme.html' height='300' width ='500'></iframe>";
+    resetSidebarButtonClasses ();
+    var me = document.getElementById("me");
+    me.setAttribute("class", "sideBarbuttonSelected");
 }
 
 function stuff() {
     var outarea = document.getElementById("outarea");
     outarea.innerHTML = "<iframe src='mystuff.html'height='300' width ='500'></iframe>";    
+    resetSidebarButtonClasses ()
+    var stuff = document.getElementById('stuff');
+    stuff.setAttribute('class', 'sideBarbuttonSelected')
 }
 
 function contact() {
     var outarea = document.getElementById("outarea");
     outarea.innerHTML = "<iframe src='contact.html'height='300' width ='500'></iframe>";    
+    resetSidebarButtonClasses ()
+    var contact = document.getElementById('contact');
+    contact.setAttribute('class', 'sideBarbuttonSelected')
 }
 
-function loadPage (pageName)
-{
-    var outarea = document.getElementById("outarea");
-    outarea.innerHTML = "<iframe src='" + pageName + "'height='300' width ='500'></iframe>";    
+function resetSidebarButtonClasses () {
+    var me = document.getElementById('me');
+    var stuff = document.getElementById("stuff");
+    var contact = document.getElementById("contact");
+    me.setAttribute("class", "sideBarbutton");
+    stuff.setAttribute("class", "sideBarbutton");
+    contact.setAttribute("class", "sideBarbutton");
 }

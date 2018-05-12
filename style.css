@@ -2,13 +2,13 @@ body {
     background-color: #5CDB95;
 }
 
-.container-fluid {
+.container {
     position: absolute;
     height: 100%;
     padding-top: 25%;
     background-color: #379683;
     margin-left: 10px;
-    width: 275px;
+    width: 300px;
 }
 
 h2 {
@@ -22,7 +22,12 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button {
+@keyframes letterSpread {
+    from {letter-spacing: 5px;}
+    to {letter-spacing: 6px;}
+}
+
+.sideBarbutton {
     color: #EDF5E1;
     background: none;
     border: none;
@@ -32,15 +37,24 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button:hover {
-    color: #05286b;
+.sideBarbuttonSelected {
+    color: #EDF5E1;
+    background: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 6px;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button:active {
-    text-decoration: underline;
-    text-decoration-color:#05286b;
-    color: #05286b;
+.sideBarbutton:hover {
+    animation: letterSpread;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    color: #EDF5E1;
 }
+
 #outarea {
     position: absolute;
     left: 300px;
@@ -52,6 +66,7 @@ button:active {
 
 iframe {
     border: none;
+    margin-left: 50px;
 }
 
 h1 {
