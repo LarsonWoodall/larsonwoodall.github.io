@@ -155,6 +155,12 @@ hr {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.projects {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: none;
+}
+
 a:link {
     text-decoration: none;
 }
