@@ -9,7 +9,7 @@ function link_events() {
 
 function me() {
     var outarea = document.getElementById("outarea");
-    outarea.innerHTML = '<object type="text/html" data="mystuff.html" ></object>';;
+    outarea.innerHTML = '<object type="text/html" data="me.html" ></object>';;
     resetSidebarButtonClasses ();
     var me = document.getElementById("me");
     me.setAttribute("class", "sideBarbuttonSelected");
