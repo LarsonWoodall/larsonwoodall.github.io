@@ -50,7 +50,7 @@ body {
     color: white;
     background: none;
     text-align: left;
-    margin-right: 2em;
+    margin-right: 2vmax;
     border: none;
     font-size: 20px;
     letter-spacing: 5px;
@@ -105,10 +105,8 @@ body {
 
 iframe {
     border: none;
-    width: 100%;
-    height: 100%;
-    width: 100%;
-    height: 750px;
+    width: 100vmax;
+    height: 50vmax;
 }
 
 .bigHeader {
@@ -117,7 +115,7 @@ iframe {
     font-weight: bold;
     border: none;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 1vmax;
     font-size: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     animation: letterSpacingAmbientStretch;
@@ -127,13 +125,13 @@ iframe {
 }
 
 hr {
-    height: 2px;
+    height: .3vmax;
     color: #F76C6C;
     background-color: #F76C6C;
-    margin-top: 2%; 
-    margin-bottom: 2%; 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 1vmax; 
+    margin-bottom: 1vmax; 
+    margin-left: 5vmax;
+    margin-right: 5vmax;
     text-align: center;
 }
 
@@ -142,16 +140,16 @@ hr {
     background: none;
     text-align: center;
     font-size: 1.5em;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #links {
     color: white;
     background: none;
-    font-size: 1.5em;
-    margin-left: 35%;
+    font-size: 1em;
+    margin-left: 36vmax;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
